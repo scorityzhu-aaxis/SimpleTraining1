@@ -36,3 +36,39 @@ http://localhost:8080/category/initData
 
 ### Access
 http://localhost:8080/login
+
+ 
+
+
+Training report
+=====================================================
+        Input all what you changed content blow.
+
+## Mandatory items
+
+###JDK8 Lambda Expression
+        Input any comments here;
+        
+###Spring Validation
+        Input any comments here;
+        
+###Springboot Unit Testing
+        Input any comments here;
+
+###Logging
+        Input any comments here;
+        
+###Spring Security
+        Input any comments here;
+        
+###Spring Data JPA - MySQL
+        Input any comments here;
+        
+###Spring Data Redis
+        Input any comments here;
+        
+###Springboot Application Performance Tuning
+        Input any comments here;
+        
+## Optional items
+        Add any your implemented items here. 
