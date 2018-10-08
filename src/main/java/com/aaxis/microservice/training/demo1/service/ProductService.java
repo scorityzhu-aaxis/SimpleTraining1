@@ -99,6 +99,7 @@ public class ProductService {
     }
 
     public Page<Product> findProductsInPLP(String categoryId, int page, String sortName, String sortValue) {
+        long startTime = System.currentTimeMillis();
         Specification<Product> spec = new Specification<Product>() {
             @Nullable
             @Override
@@ -120,6 +121,8 @@ public class ProductService {
 
         Page<Product> pageResult = mProductDao.findAll(spec, pageable);
         addPriceAndInventory(pageResult.getContent());
+        long cost = System.currentTimeMillis()-startTime;
+        System.out.println("COST_TIME:"+cost);
         return pageResult;
     }
 
