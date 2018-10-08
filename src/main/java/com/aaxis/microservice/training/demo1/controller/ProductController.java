@@ -1,19 +1,14 @@
 package com.aaxis.microservice.training.demo1.controller;
 
-import com.aaxis.microservice.training.demo1.domain.Product;
 import com.aaxis.microservice.training.demo1.domain.ProductResult;
-import com.aaxis.microservice.training.demo1.service.CategoryService;
 import com.aaxis.microservice.training.demo1.service.ProductService;
 import com.aaxis.microservice.training.demo1.util.SpringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Controller
 @RequestMapping("/product")
